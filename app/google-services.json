@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1009279341443",
+    "firebase_url": "https://myfridge-b48d1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "myfridge-b48d1",
+    "storage_bucket": "myfridge-b48d1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009279341443:android:f7da63395b150029555cb6",
+        "android_client_info": {
+          "package_name": "ru.ngtu.myfridge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009279341443-28l18apimd42d6nu59kqnu37c5sr9c1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.ngtu.myfridge",
+            "certificate_hash": "f1951c3d7fc90da8addd262d86b229e98e4d8881"
+          }
+        },
+        {
+          "client_id": "1009279341443-2qtsgc3rqchl0cn27qa3ihm35gk3gdt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrl6oQAGsA_bNgb-hhxmm67vv2IsKuBa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009279341443-2qtsgc3rqchl0cn27qa3ihm35gk3gdt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

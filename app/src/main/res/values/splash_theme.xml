@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyFridge.Splash" parent="Theme.SplashScreen">
+        <!-- Логотип (display.png) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/display</item>
+        <!-- Фон (можно настроить, я выбрал белый для примера) -->
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <!-- Убираем анимацию выхода, если нужно -->
+        <item name="postSplashScreenTheme">@style/Theme.MyFridge</item>
+    </style>
+</resources>

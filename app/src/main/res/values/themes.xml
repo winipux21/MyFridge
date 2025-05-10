@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основная тема приложения -->
+    <style name="Theme.MyFridge" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Дополнительные настройки, если нужны -->
+    </style>
+
+    <!-- Тема для SplashActivity -->
+    <style name="Theme.MyFridge.NoActionBar" parent="Theme.MyFridge">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
