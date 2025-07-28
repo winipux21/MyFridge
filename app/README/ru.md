@@ -26,7 +26,7 @@
 * Профиль. Пользователь меняет аватар одним тапом, редактирует никнейм и сохраняет его в Firebase; отдельная кнопка открывает настройку времени напоминаний о продуктах
 * Семейное пространство. Экран «Детали семьи» показывает ID‑код для приглашений, общие продукты/рецепты/список покупок и даёт владельцу права переименовать или удалить семью, а также шарить отдельные сущности одним кликом
 
-<img width="270" height="572" alt="Screenshot_31" src="https://github.com/user-attachments/assets/ad1d81a3-6ef0-44be-9016-43a7cc3da950" /> <img width="270" height="572" alt="Screenshot_32" src="https://github.com/user-attachments/assets/d2811519-62c7-4652-a38f-65aae626b239" /> <img width="270" height="572" alt="Screenshot_33" src="https://github.com/user-attachments/assets/eafb5537-8c71-40dd-839c-e61638cacb12" /> <img width="270" height="572" alt="Screenshot_34" src="https://github.com/user-attachments/assets/2124f041-a0b8-426d-a555-38151e31c3d5" />
+<img width="392" height="832" alt="Screenshot_31" src="https://github.com/user-attachments/assets/ad1d81a3-6ef0-44be-9016-43a7cc3da950" /> <img width="387" height="830" alt="Screenshot_32" src="https://github.com/user-attachments/assets/d2811519-62c7-4652-a38f-65aae626b239" /> <img width="393" height="824" alt="Screenshot_33" src="https://github.com/user-attachments/assets/eafb5537-8c71-40dd-839c-e61638cacb12" /> <img width="385" height="828" alt="Screenshot_34" src="https://github.com/user-attachments/assets/2124f041-a0b8-426d-a555-38151e31c3d5" />
 
 
 
