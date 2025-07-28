@@ -52,12 +52,12 @@ fun ContactInfoScreen(
         Spacer(Modifier.height(24.dp))
 
         Text(
-            text = "Email: tanyastepanovann@gmail.com",
+            text = "Email: ",
             style = TextStyle(fontSize = 16.sp, color = Color.Black),
             modifier = Modifier.padding(vertical = 8.dp)
         )
         Text(
-            text = "Телефон: +7 952 772-86-49",
+            text = "Телефон: ",
             style = TextStyle(fontSize = 16.sp, color = Color.Black),
             modifier = Modifier.padding(vertical = 8.dp)
         )
