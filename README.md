@@ -12,6 +12,8 @@ My area of responsibility included
 * Real‑time collaboration – family recipes / products synchronised through Firebase listeners 
 * CI & QA – GitHub Actions pipeline, unit / UI tests (JUnit5 + Compose‑UITest) covering 80 % of logic
 
+![Static Badge](https://img.shields.io/badge/Kotlin-2.1.0-purple?link=https%3A%2F%2Fkotlinlang.org%2F) ![Static Badge](https://img.shields.io/badge/Firebase-Google-orange?link=https%3A%2F%2Ffirebase.google.com%2F) ![Static Badge](https://img.shields.io/badge/deepseek-reasoner-blue?link=https%3A%2F%2Fplatform.deepseek.com%2Fusage) ![Static Badge](https://img.shields.io/badge/ChatGPT-Vision-1f1f1f?link=https%3A%2F%2Ffirebase.google.com%2F)
+
 ## Project concept
 * On‑boarding & main hub – after Google auth the user lands on the MainScreen with three tabs: Fridge, Shopping list, Recipes  
 * Fridge tab – local Room database shows all items with quantity, unit and best‑before date; plus buttons to add manually or “via photo”  
