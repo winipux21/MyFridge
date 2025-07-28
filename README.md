@@ -31,3 +31,36 @@ Data flow: local entities (Room) ↔ sync layer ↔ Firebase so every change app
 
 <img width="392" height="832" alt="Screenshot_31" src="https://github.com/user-attachments/assets/ad1d81a3-6ef0-44be-9016-43a7cc3da950" /> <img width="387" height="830" alt="Screenshot_32" src="https://github.com/user-attachments/assets/d2811519-62c7-4652-a38f-65aae626b239" /> <img width="393" height="824" alt="Screenshot_33" src="https://github.com/user-attachments/assets/eafb5537-8c71-40dd-839c-e61638cacb12" /> <img width="385" height="828" alt="Screenshot_34" src="https://github.com/user-attachments/assets/2124f041-a0b8-426d-a555-38151e31c3d5" />
 
+# Setup and Launch Guide
+
+Below are the minimum steps to build and run a mobile application written in **Kotlin** + **Jetpack Compose** with integration of **Firebase**, **Room**, **Google Sign‑In** and external **APIs (OpenAI / DeepSeek)**
+
+## Pre-launch setup
+* Cloning the repository
+```
+git clone https://github.com/winipux21/MyFridge
+cd MyFridge
+```
+Open the root folder in Android Studio and wait for Gradle to sync
+
+## Configuration of secrets
+1. Firebase
+Create a project in the Firebase Console and add an Android application with the same applicationId as in the app/build.gradle
+Download google-services.json and put it in the app directory/
+
+2. Google Sign‑In
+The OAuth client is created automatically in the Firebase project; check that the SHA‑1 fingerprint of your keystore has been added
+
+3. Foreign keys
+Make sure that you have a proxy for OpenAI, as well as the OpenAI-API-key and DeepSeek-API-key APIs.
+The keys are stored in the MyFridge\app\src\main\java\ru\ngtu\myfridge\data\ApiKeys file
+Proxy in MyFridge\app\src\main\java\ru\ngtu\myfridge\data\network\OpenAIAPI
+
+## Build and launch
+I used Android Studio for development, so I'll build on it.
+To build and run on the emulator, use Run
+
+To get the APKs, follow these steps:
+Settings -> Build -> Generate
+
+APPs now you can open the app on your smartphone and enjoy the convenient app with your family or friends.
