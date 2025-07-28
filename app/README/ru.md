@@ -12,8 +12,7 @@
 * Совместная работа в режиме реального времени ‑ семейные рецепты / продукты синхронизируются через прослушиватели Firebase 
 * Конвейер действий CI & QA – GitHub, модульные тесты / UI (JUnit5 + Compose‑UITest), охватывающий 80% логики
 
-![Static Badge](https://img.shields.io/badge/Kotlin-2.1.0-purple?link=https%3A%2F%2Fkotlinlang.org%2F) ![Static Badge](https://img.shields.io/badge/Firebase-Google-orange?link=https%3A%2F%2Ffirebase.google.com%2F)
-
+![Static Badge](https://img.shields.io/badge/Kotlin-2.1.0-purple?link=https%3A%2F%2Fkotlinlang.org%2F) ![Static Badge](https://img.shields.io/badge/Firebase-Google-orange?link=https%3A%2F%2Ffirebase.google.com%2F) ![Static Badge](https://img.shields.io/badge/deepseek-reasoner-blue?link=https%3A%2F%2Fplatform.deepseek.com%2Fusage) ![Static Badge](https://img.shields.io/badge/ChatGPT-Vision-1f1f1f?link=https%3A%2F%2Ffirebase.google.com%2F)
 
 
 # Концепция проекта
