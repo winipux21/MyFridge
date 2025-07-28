@@ -28,5 +28,36 @@
 
 <img width="392" height="832" alt="Screenshot_31" src="https://github.com/user-attachments/assets/ad1d81a3-6ef0-44be-9016-43a7cc3da950" /> <img width="387" height="830" alt="Screenshot_32" src="https://github.com/user-attachments/assets/d2811519-62c7-4652-a38f-65aae626b239" /> <img width="393" height="824" alt="Screenshot_33" src="https://github.com/user-attachments/assets/eafb5537-8c71-40dd-839c-e61638cacb12" /> <img width="385" height="828" alt="Screenshot_34" src="https://github.com/user-attachments/assets/2124f041-a0b8-426d-a555-38151e31c3d5" />
 
+# Руководство по настройке и запуску
 
+Ниже приведены минимальные шаги, чтобы собрать и запустить мобильное приложение, написанное на **Kotlin** + **Jetpack Compose** с интеграцией **Firebase**, **Room**, **Google Sign‑In** и внешних **API (OpenAI / DeepSeek)**
 
+## Настройка перед запуском
+* Клонирование репозитория
+```
+git clone https://github.com/winipux21/MyFridge
+cd MyFridge
+```
+Откройте корневую папку в Android Studio и дождитесь синхронизации Gradle
+
+## Конфигурация секретов
+1. Firebase
+Создайте проект в Firebase Console и добавьте Android‑приложение с тем же applicationId, что в app/build.gradle
+Скачайте google-services.json и положите в директорию app/
+
+2. Google Sign‑In
+OAuth‑клиент создаётся автоматически в проекте Firebase; проверьте, что SHA‑1 отпечаток вашего keystore добавлен
+
+3. Внешние ключи
+Убедитесь что у вас есть прокси для OpenAI, а также api OpenAI-API-key и DeepSeek-API-key
+Ключи хранятся в файле MyFridge\app\src\main\java\ru\ngtu\myfridge\data\ApiKeys
+Прокси в MyFridge\app\src\main\java\ru\ngtu\myfridge\data\network\OpenAIAPI
+
+## Сборка и запуск
+Я использовал Android Studio для разработки, поэтому буду отталкиваться от неё
+Для сборки и запуска на эмуляторе используйте Run
+
+Для получения APKs проделайте эти шаги:
+Settings -> Build -> Generate APKs 
+
+теперь вы можете открыть приложение на своём смартфоне и наслаждаться удобным приложением со своеё семьёй или друзьями
