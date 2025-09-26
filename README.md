@@ -2,7 +2,7 @@
 
 “My Fridge” is a mobile companion that helps households keep track of what is inside the refrigerator, avoid food waste and instantly cook something tasty from what is already there. I delivered the project end‑to‑end: from UX‑flow and clean, modular MVVM architecture to an AI‑powered Android application and family‑sharing back‑end
 
-[english](https://github.com/idonix21/MyFridge/blob/master/README.md) [русский](https://github.com/idonix21/MyFridge/blob/master/app/README/ru.md)
+[english](https://github.com/winipux21/MyFridge/blob/master/README.md) [русский](https://github.com/winipux21/MyFridge/blob/master/app/README/ru.md)
 
 My area of responsibility included
 * Architecture – Jetpack Compose UI + Navigation, Repository/Use‑Case layers, Room for offline‑first storage, Firebase Realtime DB for cloud sync, and a dedicated AI gateway
@@ -40,7 +40,7 @@ Below are the minimum steps to build and run a mobile application written in **K
 ## Pre-launch setup
 * Cloning the repository
 ```
-git clone https://github.com/idonix21/MyFridge
+git clone https://github.com/winipux21/MyFridge
 cd MyFridge
 ```
 Open the root folder in Android Studio and wait for Gradle to sync
